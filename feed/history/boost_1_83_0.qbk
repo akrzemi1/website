@@ -95,6 +95,9 @@ Please keep the list of libraries sorted in lexicographical order.
   * Fixed handling of global precsion changes in multi-threaded environments [@https://github.com/boostorg/multiprecision/pull/552 552].
   * Fixed `cpp_int::eval_convert_to` noexcept specification [@https://github.com/boostorg/multiprecision/pull/555 555].
 
+* [phrase library..[@/libs/optional/ Optional]:]
+  * Deprecated support for C++03 and earlier, C++11 will be required in release 1.86.
+
 * [phrase library..[@/libs/ratio/ Ratio]:]
   * Change default `BOOST_RATIO_VERSION` to 2.
   * Support for `BOOST_RATIO_EXTENSIONS` is now deprecated and will eventually
